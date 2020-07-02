@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <title>Peter Keenan&ensp;&#8226;&ensp;{% block subtitle %}{% endblock %}</title>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>{% block content %}{% endblock %}
+    </body>
+    <footer>
+        <ul>
+            <li><small>&#169; Peter Keenan, 2020</small></li>
+            <li><small><a href="{{ url_for('contact_page') }}">Get in touch</a></small></li>
+            <li><small><a href="{{ url_for('aboutsite_page') }}">Background info about this site</a></small></li>
+        </ul>
+    </footer>
+</html>

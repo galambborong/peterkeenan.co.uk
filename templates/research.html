@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block subtitle %}Research{% endblock %}
+
+{% block content %}
+    <h1>About my research</h1>
+    <h2>My research interests</h2>
+    <p>My research interests cover a range of areas, primarily concerned with the interplay between a musical work and its interpreter. This takes a few forms, including historically informed performance practice research and theories on the role of editing in contemporary music performance practice.</p>
+    <h2>Public writings</h2>
+    <p>My writings in the public domain.</p>
+    <dl>
+        {% for entry in public_db %}
+            <dt><b>{{ entry.article_name }}</b></dt>
+            <dd>{{ entry.desc1 }}: {{ entry.for }}, {{ entry.year }}</dd>
+            <dd>{{ entry.desc2 }}</dd>
+            <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
+            <dd><a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+            <br>
+        {% endfor %}    
+    </dl>
+    <h2>Other writings</h2>
+    <p>This is a shortlist of things I have written for one reason or another, but are not publicly available by default. I certainly don't include them here because I think they're particularly insightful, but I guess I felt I achieved some form of useful argument.</p>
+    <dl>
+        {% for entry in other_db  %}
+            <dt><b>{{ entry.article_name }}</b></dt>
+            <dd>{{ entry.desc1 }}: {{entry.for }}, {{ entry.year }}</dd>
+            <dd>{{ entry.desc2 }}</dd>
+            <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
+            <dd><a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+            <br>
+        {% endfor %}
+    </dl>{% endblock %}

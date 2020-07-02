@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block subtitle %}About this site{% endblock %}
+
+{% block content %}
+    <h1>What is this site for?</h1>
+    <p>This site serves as a signpost for the various activities I'm involved with. You can read about my musical activities, my research or my music engraving projects. I've taken a recent interest in dev, so have also got my own git server, open for perusal (though there's not that much of interest, to be fair).<br><br>I'm thinking about blogging in some form from time to time, mainly airing my inconsistent philosophies regarding technology, privacy and similar issues.<br><br>Feel free to <a href="{{ url_for('contact_page') }}">contact me</a> directly if you want to know more about something and/or discuss anything you read here.</p>
+    <h2>A few thoughts on this website specifically</h2>
+    <p>I'm of the opinion that the web is becoming increasingly flawed, dominated by the self-centred aims of tech giants and other controlling parties. For this reason, I am not on mainstream social media platforms (though I am on Mastodon), and hence I'm reverting to the notion held in the late 90s / early 00s in which one's website was one's primary outlet for sharing information, views and other content.<br><br>This site is just a series of static html pages. I orginally planned to just write them basically, but have taken the opportunity to learn a few new skills. It is in fact written completely from the ground up in Python with the Flask interface. So, yes, it makes some very minimal use of databases, but there's no use of Wordpress or any other CMS nor any Javascript. No cookies, no analytics. It's just a bog standard  minimal site, as that's all that is needed!!</p>{% endblock %}
