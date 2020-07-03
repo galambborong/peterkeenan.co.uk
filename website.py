@@ -44,3 +44,9 @@ def aboutsite_page():
     return render_template(
             'aboutsite.html'
             )
+
+@app.route('/dev')
+def coding_page():
+    return render_template(
+            'coding.html'
+            )
