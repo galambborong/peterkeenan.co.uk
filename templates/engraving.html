@@ -12,7 +12,7 @@
     <dl>
     {% for entry in engraving_db  %}
         <dt><b>{{ entry.composer }}</b></dt>
-        <dd><b><i>{{ entry.title }}</i></b></dd>
+        <dd><b><i>{{ entry.title | safe }}</i></b></dd>
         <dd><small>{{ entry.description }}, {{ entry.for }}</small></dd>
         <dd><small>Using {{ entry.software  }}</small></dd>
     {% endfor %}

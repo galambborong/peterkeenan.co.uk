@@ -1,5 +1,5 @@
 from flask import Flask, render_template, abort, jsonify
-from model import dba, dbb, dbc
+from model import dba, dbb, dbc, dbd
 
 app = Flask(__name__)
 
@@ -49,4 +49,11 @@ def aboutsite_page():
 def coding_page():
     return render_template(
             'coding.html'
+            )
+
+@app.route('/blog')
+def blog_page():
+    return render_template(
+            'blog.html',
+            blog_db=dbd
             )

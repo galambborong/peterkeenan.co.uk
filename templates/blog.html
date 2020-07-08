@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block subtitle %}Blog{% endblock %}
+
+{% block content %}
+    <h1>Blog</h1>
+    {% for entry in blog_db | sort(attribute="date", reverse=True) %}
+        {% if entry.draft is false %}
+            <b>{{ entry.title }}</b>
+            {{ entry.date }}
+            <p>{{ entry.post | safe }}</p>
+        {% endif %}
+    {% endfor %}
+{% endblock %}

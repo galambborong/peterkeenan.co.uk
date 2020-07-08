@@ -1,0 +1,38 @@
+[
+    {
+        "title": "This is a blog post",
+        "date": "20200706",
+        "draft": false,
+        "post": "Insert text here"
+    },
+    {
+        "title": "This is a second blog post",
+        "date": "20200708",
+        "draft": false,
+        "post": "This is not a draft, so it should be published"
+    },
+    {
+        "title": "On digital minimalism",
+        "date": "20200707",
+        "draft": true,
+        "post": "This is another draft post to see how it comes about."
+    },
+    {
+        "title": "On being a digital minimalist and whatnot",
+        "date": "20200710",
+        "draft": false,
+        "post": "Having a bit of knowledge of digital minimalism helps! Let's mark this up a bit.<br><br><code>peterkeenan.co.uk</code></p><p>This is a new paragraph..."
+    },
+    {
+        "title": "YET ANOTHER POST",
+        "date": "20200101",
+        "draft": false,
+        "post": "This is another wee post to check the layout of the page."
+    },
+    {
+        "title": "YET ANOTHERRRR POST!!",
+        "date": "20201231",
+        "draft": false,
+        "post": "Yet another test to ensure the content is ordered properly"
+    }
+]
