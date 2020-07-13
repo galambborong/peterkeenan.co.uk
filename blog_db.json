@@ -8,7 +8,7 @@
     {
         "title": "This is a second blog post",
         "date": "20200708",
-        "draft": false,
+        "draft": true,
         "post": "This is not a draft, so it should be published"
     },
     {

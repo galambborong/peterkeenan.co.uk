@@ -57,3 +57,4 @@ def blog_page():
             'blog.html',
             blog_db=dbd
             )
+
