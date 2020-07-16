@@ -6,13 +6,33 @@
         <link rel="stylesheet"
               href="{{ url_for('static', filename='style.css') }}">
     </head>
-    <body>{% block content %}{% endblock %}
+    <body>
+        <header id="mainheader">
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('landing_page') }}">Home</a></li>
+                    <li><a href="{{ url_for('research_page') }}">Research</a></li>
+                    <li><a href="{{ url_for('music_page') }}">Music</a></li>
+                    <li><a href="{{ url_for('engraving_page') }}">Engraving</a></li>
+                    <li><a href="{{ url_for('coding_page') }}">Dev</a></li>
+                    <li><a href="{{ url_for('blog_page') }}">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="style_div">
+            <aside id="left_column">
+                <header>
+                    <h4>Insert text here</h4>
+                </header>
+                </aside>
+        <main id="main">
+            {% block content %}{% endblock %}
+        </main>
+        </div>
     </body>
     <footer>
-        <ul>
-            <li><small>&#169; Peter Keenan, 2020</small></li>
-            <li><small><a href="{{ url_for('contact_page') }}">Get in touch</a></small></li>
-            <li><small><a href="{{ url_for('aboutsite_page') }}">Background info about this site</a></small></li>
-        </ul>
+        <div id="foot_div">
+            <p>&#169; 2020 Peter Keenan&emsp;&#8226;&emsp;<a href="{{ url_for('contact_page') }}">Get in touch</a>&emsp;&#8226;&emsp;<a href="{{ url_for('aboutsite_page') }}">Background info about this site</a></p>
+        </div>
     </footer>
 </html>

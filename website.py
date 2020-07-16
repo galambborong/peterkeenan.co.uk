@@ -4,57 +4,43 @@ from model import dba, dbb, dbc, dbd
 app = Flask(__name__)
 
 
-@app.route('/index')
-@app.route('/home')
-@app.route('/')
+@app.route("/index")
+@app.route("/home")
+@app.route("/")
 def landing_page():
-    return render_template(
-            'home.html'
-            )
+    return render_template("home.html")
 
-@app.route('/emailme')
+
+@app.route("/emailme")
 def contact_page():
-    return render_template(
-            'emailme.html'
-            )
+    return render_template("emailme.html")
 
-@app.route('/research')
+
+@app.route("/research")
 def research_page():
-    return render_template(
-            'research.html',
-            public_db=dba,
-            other_db=dbb
-            )
+    return render_template("research.html", public_db=dba, other_db=dbb)
 
-@app.route('/music')
+
+@app.route("/music")
 def music_page():
-    return render_template(
-            'music.html'
-            )
+    return render_template("music.html")
 
-@app.route('/engraving')
+
+@app.route("/engraving")
 def engraving_page():
-    return render_template(
-            'engraving.html',
-            engraving_db=dbc
-            )
+    return render_template("engraving.html", engraving_db=dbc)
 
-@app.route('/aboutsite')
+
+@app.route("/aboutsite")
 def aboutsite_page():
-    return render_template(
-            'aboutsite.html'
-            )
+    return render_template("aboutsite.html")
 
-@app.route('/dev')
+
+@app.route("/dev")
 def coding_page():
-    return render_template(
-            'coding.html'
-            )
+    return render_template("coding.html")
 
-@app.route('/blog')
+
+@app.route("/blog")
 def blog_page():
-    return render_template(
-            'blog.html',
-            blog_db=dbd
-            )
-
+    return render_template("blog.html", blog_db=dbd)

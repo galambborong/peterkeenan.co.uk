@@ -8,7 +8,7 @@
         {% if entry.draft is false %}
             <b>{{ entry.title }}</b>
             {{ entry.date }}
-            <p>{{ entry.post | safe }}</p>
+            <p>{{ entry.post | safe }}</p><hr>
         {% endif %}
     {% endfor %}
 {% endblock %}
