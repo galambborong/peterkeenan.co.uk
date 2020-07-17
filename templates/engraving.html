@@ -11,7 +11,7 @@
     <h2>Previous projects</h2>
     <dl>
     {% for entry in engraving_db %}
-        <dt><b>{{ entry.composer | safe }}</b></dt>
+        <dt id="eng"><h3>{{ entry.composer | safe }}</h3></dt>
         <dd><b><i>{{ entry.title | safe }}</i></b></dd>
         {% if entry.description and entry.for and entry.software is defined %}
             <dd><small>{{ entry.description }}, {{ entry.for }}</small></dd>

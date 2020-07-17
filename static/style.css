@@ -66,7 +66,10 @@ nav>ul>li a {
     font-weight: bold;
 }
 
-
+#eng>h3 {
+        font-size: 18px;
+	color: #b96500;
+}
 
 p {
 	font-size: 16px;
@@ -100,6 +103,7 @@ hr {
 }
 
 a[href] {
+
 	color: #b96500;
 }
 
