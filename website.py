@@ -6,11 +6,11 @@ from flask_frozen import Freezer
 import jinja2
 
 
-from model import * 
+from model import *
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
-FLATPAGES_EXTENSION = '.md'
+FLATPAGES_EXTENSION = ".md"
 
 
 app = Flask(__name__)
@@ -19,6 +19,7 @@ app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 pages = FlatPages(app)
 freezer = Freezer(app)
+
 
 @app.route("/index")
 @app.route("/home")
@@ -61,8 +62,9 @@ def coding_page():
 def blog_page():
     return render_template("blog.html", blog_db=dbd)
 
-if __name__ == '__main__':
-    if len(sys.argv) > 1 and sys.argv[1] == 'build':
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
         app.run(port=5000)
