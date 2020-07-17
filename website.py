@@ -3,6 +3,8 @@ import sys
 from flask import Flask, render_template, abort, jsonify
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
+import jinja2
+
 
 from model import * 
 
@@ -13,6 +15,8 @@ FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+app.jinja_env.trim_blocks = True
+app.jinja_env.lstrip_blocks = True
 pages = FlatPages(app)
 freezer = Freezer(app)
 

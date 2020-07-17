@@ -10,11 +10,19 @@
     <p>Editing and engraving the music of Paul Keenan is my primary focus.</p>
     <h2>Previous projects</h2>
     <dl>
-    {% for entry in engraving_db  %}
-        <dt><b>{{ entry.composer }}</b></dt>
+    {% for entry in engraving_db %}
+        <dt><b>{{ entry.composer | safe }}</b></dt>
         <dd><b><i>{{ entry.title | safe }}</i></b></dd>
-        <dd><small>{{ entry.description }}, {{ entry.for }}</small></dd>
-        <dd><small>Using {{ entry.software  }}</small></dd>
+        {% if entry.description and entry.for and entry.software is defined %}
+            <dd><small>{{ entry.description }}, {{ entry.for }}</small></dd>
+            <dd><small>Using {{ entry.software }}</small></dd>
+        {% elif entry.for and entry.software is defined %}
+            <dd><small>{{ entry.for }}</small></dd>
+            <dd><small>Using {{ entry.software }}</small></dd>
+        {% else %}
+            <dd><small>{{ entry.description }}</small></dd>
+            <dd><small>{{ entry.software }}</small></dd>
+        {% endif %}
     {% endfor %}
     </dl>
     {% endblock %}

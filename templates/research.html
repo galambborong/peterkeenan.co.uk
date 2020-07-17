@@ -10,11 +10,16 @@
     <p>A list of my writings in the public domain:</p>
     <dl>
         {% for entry in public_db %}
-            <dt><b>{{ entry.article_name }}</b></dt>
+            <dt><b>{{ entry.article_name | safe }}</b></dt>
             <dd>{{ entry.desc1 }}: {{ entry.for }}, {{ entry.year }}</dd>
-            <dd>{{ entry.desc2 }}</dd>
-            <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
-            <dd><a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+            {% if entry.desc2 is defined %}
+                <dd>{{ entry.desc2 }}</dd>
+            {% endif %}
+            {% if entry.link2_url is defined %}
+                <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a>&ensp;&#8226;&ensp;<a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+            {% else %}
+                <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
+                {% endif %}
             <br>
         {% endfor %}    
     </dl>
@@ -22,9 +27,9 @@
     <p>This is a shortlist of things I have written for one reason or another, but are not publicly available by default. I certainly don't include them here because I think they're particularly insightful, but I guess I felt I achieved some form of useful argument.</p>
     <dl>
         {% for entry in other_db  %}
-            <dt><b>{{ entry.article_name }}</b></dt>
+            <dt><b>{{ entry.article_name | safe }}</b></dt>
             <dd>{{ entry.desc1 }}: {{entry.for }}, {{ entry.year }}</dd>
-            <dd>{{ entry.desc2 }}</dd>
+            <dd>{{ entry.desc2 | safe }}</dd>
             <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
             <dd><a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
             <br>
