@@ -5,24 +5,27 @@
 {% block content %}
     <h1>Music engraving</h1>
     <h2>Specialised music typography</h2>
-    <p>Content to go here</p>
+    <p>Some of my work has been as a music engraver. I pretty much exclusively use <a href="https://en.wikipedia.org/wiki/SCORE_%28software%29">SCORE</a>, complemented by an array of third-party programs &ndash; most notably those by Tom Brodhead.</p><p>I have used <a href="https://en.wikipedia.org/wiki/Sibelius_(scorewriter)">Sibelius</a> but cannot claim much expertise there (I do not have my own copy). Similarly, I bought <a href="https://en.wikipedia.org/wiki/Dorico">Dorico</a> eight or so months ago. I have played around with it a bit, but am yet to try a full project in it.</p>
     <h2>The music of Paul Keenan</h2>
-    <p>Editing and engraving the music of Paul Keenan is my primary focus.</p>
+    <p>My main activity these days is the editing and engraving of the music of <a href="https://paulkeenanmusic.co.uk/">Paul Keenan</a>. The aim is to produce a set of performance materials with the same care and attention to detail as that of the Stockhausen-Verlag. This is a pretty hefty task, slowed down by the fact that it's not funded so I cannot commit consistent time to it. Nonetheless, I am making progress.</p>
     <h2>Previous projects</h2>
+    <p>A brief summary of some of the work I've done previously</p>
     <dl>
-    {% for entry in engraving_db %}
-        <dt id="eng"><h3>{{ entry.composer | safe }}</h3></dt>
+        {% for entry in engraving_db %}
+            <div id="article_loop">
+        <dt><b>{{ entry.composer | safe }}</b></dt>
         <dd><b><i>{{ entry.title | safe }}</i></b></dd>
         {% if entry.description and entry.for and entry.software is defined %}
-            <dd><small>{{ entry.description }}, {{ entry.for }}</small></dd>
-            <dd><small>Using {{ entry.software }}</small></dd>
+            <dd>{{ entry.description }}, {{ entry.for }}</dd>
+            <dd>Using {{ entry.software }}</dd>
         {% elif entry.for and entry.software is defined %}
-            <dd><small>{{ entry.for }}</small></dd>
-            <dd><small>Using {{ entry.software }}</small></dd>
+            <dd>{{ entry.for }}</dd>
+            <dd>Using {{ entry.software }}</dd>
         {% else %}
-            <dd><small>{{ entry.description }}</small></dd>
-            <dd><small>{{ entry.software }}</small></dd>
+            <dd>{{ entry.description }}</dd>
+            <dd>Using {{ entry.software }}</dd>
         {% endif %}
+            </div>
     {% endfor %}
     </dl>
     {% endblock %}

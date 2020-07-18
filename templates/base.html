@@ -8,9 +8,11 @@
               href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
-        <header id="mainheader">
-            <nav>
-                <ul>
+        <div id="page_container">
+            <div id="content_wrap">
+                <header id="mainheader">
+                    <nav>
+                        <ul>
                     <li><a href="{{ url_for('landing_page') }}">Home</a></li>
                     <li><a href="{{ url_for('research_page') }}">Research</a></li>
                     <li><a href="{{ url_for('music_page') }}">Music</a></li>
@@ -20,15 +22,13 @@
                 </ul>
             </nav>
         </header>
-        <div id="style_div">
         <main id="main">
             {% block content %}{% endblock %}
         </main>
         </div>
-    </body>
-    <footer>
-        <div id="foot_div">
-            <p>&#169; 2020 Peter Keenan&emsp;&#8226;&emsp;<a href="{{ url_for('contact_page') }}">Get in touch</a>&emsp;&#8226;&emsp;<a href="{{ url_for('aboutsite_page') }}">Background info about this site</a></p>
-        </div>
+    <footer id="foot_div">
+        <p>&#169; 2020 Peter Keenan&emsp;&#8226;&emsp;<a href="{{ url_for('contact_page') }}">Get in touch</a>&emsp;&#8226;&emsp;<a href="{{ url_for('aboutsite_page') }}">Background info about this site</a></p>
     </footer>
+        </div>
+    </body>
 </html>

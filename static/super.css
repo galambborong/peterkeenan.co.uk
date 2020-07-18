@@ -1,5 +1,10 @@
 /*@import 'https://fonts.googleapis.com/css?family=Open+Sans';*/
 
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.75em;
@@ -9,12 +14,36 @@ body {
         margin-right: auto;
 	background-color: #222;
 	color: #aaa;
-        width: 750px;
+        width: 618px;
+}
+
+.simple-container {
+	max-width: 618px;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+.simple-print {
+	fill: white;
+	stroke: white;
+}
+.simple-print svg {
+	height: 100%;
+}
+
+.simple-close {
+	color: white;
+	border-color: white;
+}
+
+.simple-ext-info {
+	border-top: 1px solid #aaa;
 }
 
 nav {
     height: 60px;
-    width: 700px;
+    width: 618px;
     margin: 20px auto 20px;
 }
 
@@ -37,41 +66,13 @@ nav>ul>li a {
     font-weight: bold;
 }
 
-code {
-    color: #1f8c1f;
-    background-color: #353535;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-}
-
-#eng>dt>h3 {
+#eng>h3 {
         font-size: 18px;
 	color: #b96500;
 }
 
-#page_container {
-    position: relative;
-    min-height: 100vh;
-}
-
-#content_wrap {
-    padding-bottom: 2.5rem;
-}
-
-#foot_div {
-    position: absolute;
-    bottom: 25px;
-    width: 100%;
-    height: 2.5rem;
-  /*  border-top: 1px solid #D8D8D8;*/
-}
-
-#foot_div>p {
-    font-size: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+p {
+	font-size: 16px;
 }
 
 h1 {
@@ -80,23 +81,17 @@ h1 {
 }
 
 h2 {
-   /* color: #3fa163;*/	
-    font-size: 20px;
+	font-size: 20px;
 	line-height: 25px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #D8D8D8;
-        border-top: 1px solid #D8D8D8;
 }
 
 h3 {
 	font-size: 16px;
 	line-height: 27px;
-/*	padding-top: 15px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #D8D8D8;
 	border-top: 1px solid #D8D8D8;
-        */
 }
 
 hr {
@@ -106,19 +101,6 @@ hr {
 	width: 100%;
 	margin: 0px;
 }
-
-#article_loop {
-    width: 85%;
-    margin: 1em;
-}
-
-#article_loop>dt>b {
-    font-size: 17px;
-}
-
-
-
-
 
 a[href] {
 
@@ -144,4 +126,10 @@ aside,
 	margin: 0 auto;
 	border: 1px solid lightgrey;
 	padding: 5px 15px;
+}
+
+@media (min-width: 1921px) {
+	body {
+		font-size: 18px;
+	}
 }

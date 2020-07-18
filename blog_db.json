@@ -2,7 +2,7 @@
     {
         "title": "This is a blog post",
         "date": "20200706",
-        "draft": false,
+        "draft": true,
         "post": "Insert text here"
     },
     {
@@ -20,19 +20,19 @@
     {
         "title": "On being a digital minimalist and whatnot",
         "date": "20200710",
-        "draft": false,
+        "draft": true,
         "post": "Having a bit of knowledge of digital minimalism helps! Let's mark this up a bit.<br><br><code>peterkeenan.co.uk</code></p><p>This is a new paragraph..."
     },
     {
         "title": "YET ANOTHER POST",
         "date": "20200101",
-        "draft": false,
+        "draft": true,
         "post": "This is another wee post to check the layout of the page."
     },
     {
-        "title": "YET ANOTHERRRR POST!!",
-        "date": "20201231",
+        "title": "Brief introduction...",
+        "date": "20200718",
         "draft": false,
-        "post": "Yet another test to ensure the content is ordered properly"
+        "post": "I sort of hate the term 'blog', but I guess that is what this will be... Apart from actual changes in the content &ndash; the rest of this site will pretty much remain constant. This is the area I intend to post updates to. These updates may be thoughts or ideas, sharing solutions to problems I've encountered, or whatever. I will probably set up an RSS feed for it. We'll see..."
     }
 ]
