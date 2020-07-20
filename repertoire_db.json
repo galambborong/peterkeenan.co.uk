@@ -1,0 +1,230 @@
+[
+    {
+        "composer": "Hans Abrahamsen",
+        "titles": ["<i>Lied in Fall</i>"],
+        "concert": true,
+        "rehearsal": false
+    },
+    {
+        "composer": "Marie Andreou",
+        "titles": ["<i>Oculi Universalis</i>"],
+        "concert": true
+    },
+    {
+        "composer": "Ludwig van Beethoven",
+        "concert": true,
+        "titles": [
+            "Piano Concerto No. 1",
+            "Symphonies 2, 4, 5, 6"
+        ]
+    },
+    {
+        "composer": "Georges Bizet",
+        "titles": ["<i>Carmen</i>"],
+        "concert": false,
+        "rehearsal": true
+    },
+    {
+        "composer": "Johannes Brahms",
+        "titles": [
+            "Tragic Overture"
+        ],
+        "concert": true
+    },
+    {
+        "composer": "Johannes Brahms",
+        "titles": [
+            "Serenade No. 1",
+            "Symphony No. 2",
+            "<i>Variations on a theme of Haydn</i>"
+        ],
+        "rehearsal": true
+    },
+    {
+        "composer": "Benjamin Britten",
+        "titles": [
+            "<i>Lachrymae</i>",
+            "Simple Symphony"
+        ],
+        "rehearsal": true
+    },
+    {
+        "composer": "Anton Bruckner",
+        "titles": ["Symphony No. 4"],
+        "rehearsal": true
+    },
+    {
+        "composer": "William Byrd",
+        "titles": ["Beati mundo corde"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Philip Cashian",
+        "titles": ["Chamber Concerto"],
+        "concert": true
+    },
+    {
+        "composer": "Anton&iacute;n Dvo&rcaron;&aacute;k",
+        "titles": [
+            "Slavonic Dances, Op. 46 <small>(Numbers 7 and 9)</small>",
+            "Symphony No. 4",
+            "Symphony No. 9 <i>From the new world</i>"
+        ],
+        "concert": true
+    },
+    {
+        "composer": "Edward Elgar",
+        "titles": ["Serenade for Strings", "<i>They are at rest</i>"],
+        "rehearsals": true
+    },
+    {
+        "composer": "Gabriel Faur&eacute;",
+        "titles": ["Requiem"],
+        "concert": true
+    },
+    {
+        "composer": "John Goldie-Scot",
+        "titles": ["<i>Daisy Doodad's Dial</i>","<i>Ein kurzer Liederkreis</i>","<i>Thought Fox</i>"],
+        "concert": true
+    },
+    {
+        "composer": "Alexander Glazunov",
+        "titles": ["Saxophone Concerto"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Edward Grieg",
+        "titles": ["<i>Two elegiac melodies</i>"],
+        "rehearsal": true
+    },
+    {
+        "composer": "George Frideric Handel",
+        "titles": ["<i>Esther</i> <small>(1720, Cannons)</small>","<i>Messiah</i> <small>(1742 Dublin, 1750 London)</small>"],
+        "concert": true
+    },
+    {
+        "composer": "Joseph Haydn",
+        "titles": ["Concerto for Trumpet","Symphony No. 49 <i>La passione</i>","Symphony No. 97"],
+        "concert": true
+    },
+    {
+        "composer": "Joseph Haydn",
+        "titles": ["Symphony No. 104 <i>London</i>"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Jerry Herman",
+        "titles": ["<i>Hello Dolly</i>"],
+        "concert": true
+    },
+    {
+        "composer": "Paul Keenan",
+        "titles": ["<i>The Ruin</i>"],
+        "concert": true
+    },
+    {
+        "composer": "James MacMillan",
+        "titles": ["<i>O radiant dawn</i>"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Wolfgang Amadeus Mozart",
+        "titles": ["<i>Ave verum corpus</i>","Clarinet Concerto","Grabmusik","Exsultate, jubilate","Violin Concerto No. 4","<i>Cos&igrave; fan tutte</i>","Symphony No. 29","Symphony No. 36 <i>Linz</i>","<i>Le nozze di Figaro</i>","Die Zauberfl&ouml;te","Requiem"],
+        "concert": true
+    },
+    {
+        "composer": "Wolfgang Amadeus Mozart",
+        "titles": ["Piano Concerto No. 27"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Eddie McGuire",
+        "titles": ["<i>Prazdnik</i>"],
+        "concert": true
+    },
+    {
+        "composer": "Bohuslav Martin&#x16F;",
+        "titles": ["Nonet"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Dimitris Papageorgiou",
+        "titles": ["<i>Imageries</i>"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Gioachino Rossini",
+        "titles": ["William Tell Overture"],
+        "concert": true
+    },
+    {
+        "composer": "Franz Schubert",
+        "titles": ["Symphony No. 7 'Unfinished'"],
+        "concert": true
+    },
+    {
+        "composer": "Robert Schumann",
+        "titles": ["Symphony No. 4 <small>(1841 version</small>"],
+        "concert": true
+    },
+    {
+        "composer": "Dimitri Shostakovich",
+        "titles": ["Cello Concerto No. 1"],
+        "concert": true
+    },
+    {
+        "composer": "Dimitri Shostakovich",
+        "titles": ["Chamber Symphony"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Jean Sibelius",
+        "titles": ["Finlandia","Sc&egrave;nes historique"],
+        "concert": true
+    },
+    {
+        "composer": "Bed&rcaron;ich Smetana",
+        "titles": ["<i>V&scaron;ehrad</i> from <i>M&aacute; vlast</i>"],
+        "concert": true
+    },
+    {
+        "composer": "Johann Strauss II",
+        "titles": ["<i>Die Fledermaus</i>"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Igor Stravinsky",
+        "titles": ["<i>The Solider's Tale</i>"],
+        "concert": true
+    },
+    {
+        "composer": "Josef Suk",
+        "titles": ["Serenade for Strings"],
+        "rehearsal": true
+    },
+    {
+        "composer": "John Tavener",
+        "titles": ["The Lamb"],
+        "concert": true
+    },
+    {
+        "composer": "Richard Vaughan-Williams",
+        "titles": ["Pastoral Symphony"],
+        "concert": true
+    },
+    {
+        "composer": "Richard Wagner",
+        "titles": ["<i>Die Meistersinger von N&uuml;nberg</i> <small>(overture)</small>"],
+        "concert": true
+    },
+    {
+        "composer": "Carl Maria von Weber",
+        "titles": ["<i>Der Freischutz</i> <small>(overture)</small>"],
+        "concert": true
+    },
+    {
+        "composer": "James Whittle",
+        "titles": ["Violent Canon"],
+        "concert": true
+    }
+]

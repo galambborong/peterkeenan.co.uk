@@ -31,3 +31,10 @@ def load_db_d():
 
 
 dbd = load_db_d()
+
+
+def load_db_e():
+    with open('repertoire_db.json') as f:
+        return json.load(f)
+
+dbe = load_db_e()

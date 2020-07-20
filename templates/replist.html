@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block subtitle %}Repertoire{% endblock %}
+
+{% block content %}
+    <h1>A summary of my repertoire</h1>
+    <h2>Works I've performed</h2>
+    <dl>
+        {% for entry in repertoire_db %}
+            {% if entry.concert is true %}
+            <div id="article_loop">
+                <dt><b>{{ entry.composer | safe }}</b></dt>
+                {% for title in entry.titles %}
+                    <dd><b>{{ title | safe }}</b></dd>
+                {% endfor %}
+            </div>
+            {% endif %}
+    {% endfor %}
+    </dl>
+    <h2>Works I've rehearsed</h2>
+    <dl>
+        {% for entry in repertoire_db %}
+            {% if entry.rehearsal is true %}
+                <div id="article_loop">
+                    <dt><b>{{ entry.composer | safe }}</b></dt>
+                    {% for title in entry.titles %}
+                        <dd><b>{{ title | safe }}</b></dd>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </dl>
+    {% endblock %}

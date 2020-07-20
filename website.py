@@ -28,37 +28,41 @@ def landing_page():
     return render_template("home.html")
 
 
-@app.route("/emailme.html")
+@app.route("/emailme/")
 def contact_page():
     return render_template("emailme.html")
 
 
-@app.route("/research.html")
+@app.route("/research/")
 def research_page():
     return render_template("research.html", public_db=dba, other_db=dbb)
 
 
-@app.route("/music.html")
+@app.route("/music/")
 def music_page():
     return render_template("music.html")
 
 
-@app.route("/engraving.html")
+@app.route('/music/repertoire')
+def rep_list():
+    return render_template("replist.html", repertoire_db=dbe)
+
+@app.route("/engraving/")
 def engraving_page():
     return render_template("engraving.html", engraving_db=dbc)
 
 
-@app.route("/aboutsite.html")
+@app.route("/aboutsite/")
 def aboutsite_page():
     return render_template("aboutsite.html")
 
 
-@app.route("/dev.html")
+@app.route("/dev/")
 def coding_page():
     return render_template("coding.html")
 
 
-@app.route("/blog.html")
+@app.route("/blog/")
 def blog_page():
     return render_template("blog.html", blog_db=dbd)
 
