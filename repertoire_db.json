@@ -66,9 +66,9 @@
     {
         "composer": "Anton&iacute;n Dvo&rcaron;&aacute;k",
         "titles": [
-            "Slavonic Dances, Op. 46 <small>(Numbers 7 and 9)</small>",
+            "Slavonic Dances, Op. 46 <small>(numbers 7 and 9)</small>",
             "Symphony No. 4",
-            "Symphony No. 9 <i>From the new world</i>"
+            "Symphony No. 9 <i>(From the new world)</i>"
         ],
         "concert": true
     },
@@ -99,7 +99,7 @@
     },
     {
         "composer": "George Frideric Handel",
-        "titles": ["<i>Esther</i> <small>(1720, Cannons)</small>","<i>Messiah</i> <small>(1742 Dublin, 1750 London)</small>"],
+        "titles": ["<i>Esther</i> <small>(1720 Cannons version)</small>","<i>Messiah</i> <small>(1742 Dublin and 1750 London versions)</small>"],
         "concert": true
     },
     {
@@ -109,12 +109,12 @@
     },
     {
         "composer": "Joseph Haydn",
-        "titles": ["Symphony No. 104 <i>London</i>"],
+        "titles": ["Symphony No. 104 <i>(London)</i>"],
         "rehearsal": true
     },
     {
         "composer": "Jerry Herman",
-        "titles": ["<i>Hello Dolly</i>"],
+        "titles": ["<i>Hello Dolly!</i>"],
         "concert": true
     },
     {
@@ -129,7 +129,7 @@
     },
     {
         "composer": "Wolfgang Amadeus Mozart",
-        "titles": ["<i>Ave verum corpus</i>","Clarinet Concerto","Grabmusik","Exsultate, jubilate","Violin Concerto No. 4","<i>Cos&igrave; fan tutte</i>","Symphony No. 29","Symphony No. 36 <i>Linz</i>","<i>Le nozze di Figaro</i>","Die Zauberfl&ouml;te","Requiem"],
+        "titles": ["<i>Ave verum corpus</i>","Clarinet Concerto","<i>Grabmusik</i>","<i>Exsultate, jubilate</i>","Laudate Dominum from <i>Vesperae solennes de Confessore</i>","Violin Concerto No. 4","<i>Cos&igrave; fan tutte</i>","Symphonies 29 and 36 <i>(Linz)</i>","<i>Le nozze di Figaro</i>","<i>Die Zauberfl&ouml;te</i>","Requiem"],
         "concert": true
     },
     {
@@ -154,17 +154,17 @@
     },
     {
         "composer": "Gioachino Rossini",
-        "titles": ["William Tell Overture"],
+        "titles": ["<i>Guillaume Tell</i> <small>(overture)</small>"],
         "concert": true
     },
     {
         "composer": "Franz Schubert",
-        "titles": ["Symphony No. 7 'Unfinished'"],
+        "titles": ["Symphony No. 7 <i>(Unfinished)</i>"],
         "concert": true
     },
     {
         "composer": "Robert Schumann",
-        "titles": ["Symphony No. 4 <small>(1841 version</small>"],
+        "titles": ["Symphony No. 4 <small>(1841 version)</small>"],
         "concert": true
     },
     {
@@ -179,12 +179,12 @@
     },
     {
         "composer": "Jean Sibelius",
-        "titles": ["Finlandia","Sc&egrave;nes historique"],
+        "titles": ["<i>Finlandia</i>","<i>Sc&egrave;nes historique</i>"],
         "concert": true
     },
     {
         "composer": "Bed&rcaron;ich Smetana",
-        "titles": ["<i>V&scaron;ehrad</i> from <i>M&aacute; vlast</i>"],
+        "titles": ["<i>Vy&scaron;ehrad</i> from <i>M&aacute; vlast</i>"],
         "concert": true
     },
     {
@@ -214,7 +214,7 @@
     },
     {
         "composer": "Richard Wagner",
-        "titles": ["<i>Die Meistersinger von N&uuml;nberg</i> <small>(overture)</small>"],
+        "titles": ["<i>Die Meistersinger von N&uuml;rnberg</i> <small>(overture)</small>"],
         "concert": true
     },
     {
@@ -226,5 +226,10 @@
         "composer": "James Whittle",
         "titles": ["Violent Canon"],
         "concert": true
+    },
+    {
+        "composer": "Johann Sebastien Bach",
+        "titles": ["<i>Jesu, meine Freude</i>"],
+        "rehearsal": true
     }
 ]

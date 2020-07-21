@@ -4,27 +4,28 @@
 
 {% block content %}
     <h1>A summary of my repertoire</h1>
-    <h2>Works I've performed</h2>
+    <p>I've been fortunate to work through some great repertoire with some great musicians. Most of my repertoire has been learned for <a href="#performed">actual concerts</a>, but I've also stood in for conductors at <a href="#rehearsed" >rehearsal</a>.</p><p>There's a great deal of repertoire I've learned but not yet performed or taken through a rehearsal process (for example, Mozart's opera <i>Apollo et Hyacinthus</i>, which had to be cancelled due to covid-19), but I do not include those works here.</p>
+    <h2><a name="performed">Works I've performed</a></h2>
     <dl>
-        {% for entry in repertoire_db %}
+        {% for entry in repertoire_db | sort(attribute="composer[-1]")%}
             {% if entry.concert is true %}
             <div id="article_loop">
                 <dt><b>{{ entry.composer | safe }}</b></dt>
-                {% for title in entry.titles %}
-                    <dd><b>{{ title | safe }}</b></dd>
+                {% for title in entry.titles | sort %}
+                    <dd>{{ title | safe }}</dd>
                 {% endfor %}
             </div>
             {% endif %}
     {% endfor %}
     </dl>
-    <h2>Works I've rehearsed</h2>
+    <h2><a name="rehearsed">Works I've rehearsed</a></h2>
     <dl>
-        {% for entry in repertoire_db %}
+        {% for entry in repertoire_db | sort(attribute="composer[-1]") %}
             {% if entry.rehearsal is true %}
                 <div id="article_loop">
                     <dt><b>{{ entry.composer | safe }}</b></dt>
-                    {% for title in entry.titles %}
-                        <dd><b>{{ title | safe }}</b></dd>
+                    {% for title in entry.titles | sort %}
+                        <dd>{{ title | safe }}</dd>
                     {% endfor %}
                 </div>
             {% endif %}
