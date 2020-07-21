@@ -43,7 +43,7 @@ def music_page():
     return render_template("music.html")
 
 
-@app.route('/music/repertoire')
+@app.route('/music/repertoire/')
 def rep_list():
     return render_template("replist.html", repertoire_db=dbe)
 
