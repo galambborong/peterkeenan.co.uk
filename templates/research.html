@@ -12,28 +12,33 @@
         {% for entry in public_db %}
             <div id="article_loop">
             <dt><b>{{ entry.article_name | safe }}</b></dt>
-            <dd>{{ entry.desc1 }}: {{ entry.for }}, {{ entry.year }}</dd>
+            <dd>{{ entry.desc1 | safe }}: {{ entry.for }}, {{ entry.year }}</dd>
             {% if entry.desc2 is defined %}
-                <dd>{{ entry.desc2 }}</dd>
+                <dd>{{ entry.desc2 | safe }}</dd>
             {% endif %}
             {% if entry.link2_url is defined %}
-                <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a>&ensp;&#8226;&ensp;<a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer" href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a>&ensp;&#8226;&ensp;<a target="_blank" rel="noopener noreferrer" href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
             {% else %}
-                <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer" href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
             {% endif %}
             </div>
             {% endfor %}    
     </dl>
     <h2>Other stuff</h2>
-    <p>This is a shortlist of things I have written for one reason or another but are not publicly available by default, or other stuff I've been involved with. I certainly don't include them here because I think they're particularly insightful, but I guess I felt I achieved some form of useful argument.</p>
+    <p>This is a shortlist of things I have written for one reason or another but are not publicly available by default, or other things I've been involved with. I certainly don't include them here because I think they're particularly insightful, but I guess I felt I achieved some form of useful argument. I will probably make a downloadable PDF of these in due course.</p>
     <dl>
-        {% for entry in other_db  %}
+        {% for entry in other_db %}
             <div id="article_loop">
             <dt><b>{{ entry.article_name | safe }}</b></dt>
-            <dd>{{ entry.desc1 }}: {{entry.for }}, {{ entry.year }}</dd>
-            <dd>{{ entry.desc2 | safe }}</dd>
-            <dd><a href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
-            <dd><a href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+            <dd>{{ entry.desc1 | safe }}: {{ entry.for }}, {{ entry.year }}</dd>
+            {% if entry.desc2 is defined %}
+                <dd>{{ entry.desc2 | safe }}</dd>
+            {% endif %}
+            {% if entry.link2_url is defined %}
+                <dd><a target="_blank" rel="noopener noreferrer" href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a>&ensp;&#8226;&ensp;<a target="_blank" rel="noopener noreferrer" href="{{ entry.link2_url }}">{{ entry.link2_txt }}</a></dd>
+            {% else %}
+                <dd><a target="_blank" rel="noopener noreferrer" href="{{ entry.link1_url }}">{{ entry.link1_txt }}</a></dd>
+            {% endif %}
             </div>
-        {% endfor %}
+            {% endfor %}    
     </dl>{% endblock %}

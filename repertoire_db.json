@@ -11,6 +11,11 @@
         "concert": true
     },
     {
+        "composer": "Johann Sebastien Bach",
+        "titles": ["<i>Jesu, meine Freude</i>"],
+        "rehearsal": true
+    },
+    {
         "composer": "Ludwig van Beethoven",
         "concert": true,
         "titles": [
@@ -44,18 +49,24 @@
         "composer": "Benjamin Britten",
         "titles": [
             "<i>Lachrymae</i>",
-            "Simple Symphony"
+            "Simple Symphony",
+            "<i>The evening primrose</i>"
         ],
         "rehearsal": true
     },
     {
         "composer": "Anton Bruckner",
-        "titles": ["Symphony No. 4"],
+        "titles": [
+            "Christus factus est",
+            "Symphony No. 4"],
         "rehearsal": true
     },
     {
         "composer": "William Byrd",
-        "titles": ["Beati mundo corde"],
+        "titles": [
+            "Beati mundo corde",
+            "Justorum animae"
+        ],
         "rehearsal": true
     },
     {
@@ -66,9 +77,9 @@
     {
         "composer": "Anton&iacute;n Dvo&rcaron;&aacute;k",
         "titles": [
+            "<i>Polednice</i>",
             "Slavonic Dances, Op. 46 <small>(numbers 7 and 9)</small>",
-            "Symphony No. 4",
-            "Symphony No. 9 <i>(From the new world)</i>"
+            "Symphonies 4 and 9 (From the new world)"
         ],
         "concert": true
     },
@@ -83,14 +94,23 @@
         "concert": true
     },
     {
-        "composer": "John Goldie-Scot",
-        "titles": ["<i>Daisy Doodad's Dial</i>","<i>Ein kurzer Liederkreis</i>","<i>Thought Fox</i>"],
-        "concert": true
+        "composer": "Orlando Gibbons",
+        "titles": ["The silver swan"],
+        "rehearsal": true
     },
     {
         "composer": "Alexander Glazunov",
         "titles": ["Saxophone Concerto"],
         "rehearsal": true
+    },
+    {
+        "composer": "John Goldie-Scot",
+        "titles": [
+            "<i>Daisy Doodad's Dial</i>",
+            "<i>Ein kurzer Liederkreis</i>",
+            "<i>Thought Fox</i>"
+        ],
+        "concert": true
     },
     {
         "composer": "Edward Grieg",
@@ -99,12 +119,17 @@
     },
     {
         "composer": "George Frideric Handel",
-        "titles": ["<i>Esther</i> <small>(1720 Cannons version)</small>","<i>Messiah</i> <small>(1742 Dublin and 1750 London versions)</small>"],
+        "titles": [
+            "<i>Esther</i> <small>(1720 Cannons version)</small>",
+            "<i>Messiah</i> <small>(1742 Dublin and 1750 London versions)</small>"
+        ],
         "concert": true
     },
     {
         "composer": "Joseph Haydn",
-        "titles": ["Concerto for Trumpet","Symphony No. 49 <i>La passione</i>","Symphony No. 97"],
+        "titles": [
+            "Trumpet Concerto",
+            "Symphonies 49 <i>La passione</i> and 97"],
         "concert": true
     },
     {
@@ -123,13 +148,35 @@
         "concert": true
     },
     {
+        "composer": "Eddie McGuire",
+        "titles": ["<i>Prazdnik</i>"],
+        "concert": true
+    },
+    {
         "composer": "James MacMillan",
         "titles": ["<i>O radiant dawn</i>"],
         "rehearsal": true
     },
     {
+        "composer": "Claudio Monteverdi",
+        "titles": ["Christe, adoramus te"],
+        "rehearsal": true
+    },
+    {
         "composer": "Wolfgang Amadeus Mozart",
-        "titles": ["<i>Ave verum corpus</i>","Clarinet Concerto","<i>Grabmusik</i>","<i>Exsultate, jubilate</i>","Laudate Dominum from <i>Vesperae solennes de Confessore</i>","Violin Concerto No. 4","<i>Cos&igrave; fan tutte</i>","Symphonies 29 and 36 <i>(Linz)</i>","<i>Le nozze di Figaro</i>","<i>Die Zauberfl&ouml;te</i>","Requiem"],
+        "titles": [
+            "<i>Ave verum corpus</i>",
+            "Clarinet Concerto",
+            "<i>Grabmusik</i>",
+            "<i>Exsultate, jubilate</i>",
+            "Laudate Dominum from <i>Vesperae solennes de Confessore</i>",
+            "Violin Concerto No. 4",
+            "<i>Cos&igrave; fan tutte</i>",
+            "Symphonies 29 and 36 <i>(Linz)</i>",
+            "<i>Le nozze di Figaro</i>",
+            "<i>Die Zauberfl&ouml;te</i>",
+            "Requiem"
+        ],
         "concert": true
     },
     {
@@ -138,18 +185,23 @@
         "rehearsal": true
     },
     {
-        "composer": "Eddie McGuire",
-        "titles": ["<i>Prazdnik</i>"],
-        "concert": true
-    },
-    {
         "composer": "Bohuslav Martin&#x16F;",
         "titles": ["Nonet"],
         "rehearsal": true
     },
     {
+        "composer": "Giovanni Pierluigi da Palestrina",
+        "titles": ["Sicut cervus"],
+        "rehearsal": true
+    },
+    {
         "composer": "Dimitris Papageorgiou",
         "titles": ["<i>Imageries</i>"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Henry Purcell",
+        "titles": ["Remember not, Lord"],
         "rehearsal": true
     },
     {
@@ -179,7 +231,10 @@
     },
     {
         "composer": "Jean Sibelius",
-        "titles": ["<i>Finlandia</i>","<i>Sc&egrave;nes historique</i>"],
+        "titles": [
+            "<i>Finlandia</i>",
+            "<i>Sc&egrave;nes historique</i>"
+        ],
         "concert": true
     },
     {
@@ -200,6 +255,11 @@
     {
         "composer": "Josef Suk",
         "titles": ["Serenade for Strings"],
+        "rehearsal": true
+    },
+    {
+        "composer": "Thomas Tallis",
+        "titles": ["If ye love me"],
         "rehearsal": true
     },
     {
@@ -228,8 +288,8 @@
         "concert": true
     },
     {
-        "composer": "Johann Sebastien Bach",
-        "titles": ["<i>Jesu, meine Freude</i>"],
+        "composer": "John Wilbye",
+        "titles": ["Weep, weep, mine eyes"],
         "rehearsal": true
     }
 ]
