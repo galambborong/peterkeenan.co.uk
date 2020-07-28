@@ -77,16 +77,24 @@
     {
         "composer": "Anton&iacute;n Dvo&rcaron;&aacute;k",
         "titles": [
-            "<i>Polednice</i>",
             "Slavonic Dances, Op. 46 <small>(numbers 7 and 9)</small>",
             "Symphonies 4 and 9 (From the new world)"
         ],
         "concert": true
     },
     {
+        "composer": "Anton&iacute;n Dvo&rcaron;&aacute;k",
+        "titles": ["<i>Polednice</i>"],
+        "rehearsal": true
+    },
+    {
         "composer": "Edward Elgar",
-        "titles": ["Serenade for Strings", "<i>They are at rest</i>"],
-        "rehearsals": true
+        "titles": [
+            "Serenade for Strings",
+            "<i>They are at rest</i>",
+            "<i>As torrents in summer</i>"
+        ],
+        "rehearsal": true
     },
     {
         "composer": "Gabriel Faur&eacute;",

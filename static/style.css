@@ -103,8 +103,11 @@ h2 {
 
 
 h3 {
-    font-size: 16px;
+    font-size: 16px; /* changed to 16 from 18 */
     line-height: 27px;
+    text-transform: uppercase;
+/*    font-variant: small-caps;     
+    color: #b96500; */
 }
 
 

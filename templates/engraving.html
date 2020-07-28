@@ -12,7 +12,7 @@
     <p>A brief summary of some of the work I've done previously</p>
     <dl>
         {% for entry in engraving_db %}
-            <div id="article_loop">
+            <div class="article_loop">
         <dt><b>{{ entry.composer | safe }}</b></dt>
         <dd><b><i>{{ entry.title | safe }}</i></b></dd>
         {% if entry.description and entry.for and entry.software is defined %}
