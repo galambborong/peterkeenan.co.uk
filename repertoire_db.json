@@ -1,19 +1,18 @@
 [
     {
         "composer": "Hans Abrahamsen",
-        "titles": ["<i>Lied in Fall</i>"],
-        "concert": true,
-        "rehearsal": false
+        "titles": ["Lied in Fall"],
+        "concert": true
     },
     {
         "composer": "Marie Andreou",
-        "titles": ["<i>Oculi Universalis</i>"],
+        "titles": ["Oculi Universalis"],
         "concert": true
     },
     {
         "composer": "Johann Sebastien Bach",
-        "titles": ["<i>Jesu, meine Freude</i>"],
-        "rehearsal": true
+        "titles": ["Jesu, meine Freude"],
+        "concert": false
     },
     {
         "composer": "Ludwig van Beethoven",
@@ -25,9 +24,8 @@
     },
     {
         "composer": "Georges Bizet",
-        "titles": ["<i>Carmen</i>"],
-        "concert": false,
-        "rehearsal": true
+        "titles": ["Carmen"],
+        "concert": false
     },
     {
         "composer": "Johannes Brahms",
@@ -41,25 +39,25 @@
         "titles": [
             "Serenade No. 1",
             "Symphony No. 2",
-            "<i>Variations on a theme of Haydn</i>"
+            "Variations on a theme of Haydn"
         ],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Benjamin Britten",
         "titles": [
-            "<i>Lachrymae</i>",
+            "Lachrymae",
             "Simple Symphony",
-            "<i>The evening primrose</i>"
+            "The evening primrose"
         ],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Anton Bruckner",
         "titles": [
             "Christus factus est",
             "Symphony No. 4"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "William Byrd",
@@ -67,7 +65,7 @@
             "Beati mundo corde",
             "Justorum animae"
         ],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Philip Cashian",
@@ -84,17 +82,17 @@
     },
     {
         "composer": "Anton&iacute;n Dvo&rcaron;&aacute;k",
-        "titles": ["<i>Polednice</i>"],
-        "rehearsal": true
+        "titles": ["Polednice"],
+        "concert": false
     },
     {
         "composer": "Edward Elgar",
         "titles": [
             "Serenade for Strings",
-            "<i>They are at rest</i>",
-            "<i>As torrents in summer</i>"
+            "They are at rest",
+            "As torrents in summer"
         ],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Gabriel Faur&eacute;",
@@ -104,32 +102,32 @@
     {
         "composer": "Orlando Gibbons",
         "titles": ["The silver swan"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Alexander Glazunov",
         "titles": ["Saxophone Concerto"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "John Goldie-Scot",
         "titles": [
-            "<i>Daisy Doodad's Dial</i>",
-            "<i>Ein kurzer Liederkreis</i>",
-            "<i>Thought Fox</i>"
+            "Daisy Doodad's Dial",
+            "Ein kurzer Liederkreis",
+            "Thought Fox"
         ],
         "concert": true
     },
     {
         "composer": "Edward Grieg",
-        "titles": ["<i>Two elegiac melodies</i>"],
-        "rehearsal": true
+        "titles": ["Two elegiac melodies"],
+        "concert": false
     },
     {
         "composer": "George Frideric Handel",
         "titles": [
-            "<i>Esther</i> <small>(1720 Cannons version)</small>",
-            "<i>Messiah</i> <small>(1742 Dublin and 1750 London versions)</small>"
+            "Esther <small>(1720 Cannons version)</small>",
+            "Messiah <small>(1742 Dublin and 1750 London versions)</small>"
         ],
         "concert": true
     },
@@ -137,52 +135,52 @@
         "composer": "Joseph Haydn",
         "titles": [
             "Trumpet Concerto",
-            "Symphonies 49 <i>La passione</i> and 97"],
+            "Symphonies 49 La passione and 97"],
         "concert": true
     },
     {
         "composer": "Joseph Haydn",
-        "titles": ["Symphony No. 104 <i>(London)</i>"],
-        "rehearsal": true
+        "titles": ["Symphony No. 104 (London)"],
+        "concert": false
     },
     {
         "composer": "Jerry Herman",
-        "titles": ["<i>Hello Dolly!</i>"],
+        "titles": ["Hello Dolly!"],
         "concert": true
     },
     {
         "composer": "Paul Keenan",
-        "titles": ["<i>The Ruin</i>"],
+        "titles": ["The Ruin"],
         "concert": true
     },
     {
         "composer": "Eddie McGuire",
-        "titles": ["<i>Prazdnik</i>"],
+        "titles": ["Prazdnik"],
         "concert": true
     },
     {
         "composer": "James MacMillan",
-        "titles": ["<i>O radiant dawn</i>"],
-        "rehearsal": true
+        "titles": ["O radiant dawn"],
+        "concert": false
     },
     {
         "composer": "Claudio Monteverdi",
         "titles": ["Christe, adoramus te"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Wolfgang Amadeus Mozart",
         "titles": [
-            "<i>Ave verum corpus</i>",
+            "Ave verum corpus",
             "Clarinet Concerto",
-            "<i>Grabmusik</i>",
-            "<i>Exsultate, jubilate</i>",
-            "Laudate Dominum from <i>Vesperae solennes de Confessore</i>",
+            "Grabmusik",
+            "Exsultate, jubilate",
+            "Laudate Dominum from Vesperae solennes de Confessore",
             "Violin Concerto No. 4",
-            "<i>Cos&igrave; fan tutte</i>",
-            "Symphonies 29 and 36 <i>(Linz)</i>",
-            "<i>Le nozze di Figaro</i>",
-            "<i>Die Zauberfl&ouml;te</i>",
+            "Cos&igrave; fan tutte",
+            "Symphonies 29 and 36 (Linz)",
+            "Le nozze di Figaro",
+            "Die Zauberfl&ouml;te",
             "Requiem"
         ],
         "concert": true
@@ -190,36 +188,36 @@
     {
         "composer": "Wolfgang Amadeus Mozart",
         "titles": ["Piano Concerto No. 27"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Bohuslav Martin&#x16F;",
         "titles": ["Nonet"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Giovanni Pierluigi da Palestrina",
         "titles": ["Sicut cervus"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Dimitris Papageorgiou",
-        "titles": ["<i>Imageries</i>"],
-        "rehearsal": true
+        "titles": ["Imageries"],
+        "concert": false
     },
     {
         "composer": "Henry Purcell",
         "titles": ["Remember not, Lord"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Gioachino Rossini",
-        "titles": ["<i>Guillaume Tell</i> <small>(overture)</small>"],
+        "titles": ["Guillaume Tell <small>(overture)</small>"],
         "concert": true
     },
     {
         "composer": "Franz Schubert",
-        "titles": ["Symphony No. 7 <i>(Unfinished)</i>"],
+        "titles": ["Symphony No. 7 (Unfinished)"],
         "concert": true
     },
     {
@@ -235,40 +233,40 @@
     {
         "composer": "Dimitri Shostakovich",
         "titles": ["Chamber Symphony"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Jean Sibelius",
         "titles": [
-            "<i>Finlandia</i>",
-            "<i>Sc&egrave;nes historique</i>"
+            "Finlandia",
+            "Sc&egrave;nes historique"
         ],
         "concert": true
     },
     {
         "composer": "Bed&rcaron;ich Smetana",
-        "titles": ["<i>Vy&scaron;ehrad</i> from <i>M&aacute; vlast</i>"],
+        "titles": ["Vy&scaron;ehrad from M&aacute; vlast"],
         "concert": true
     },
     {
         "composer": "Johann Strauss II",
-        "titles": ["<i>Die Fledermaus</i>"],
-        "rehearsal": true
+        "titles": ["Die Fledermaus"],
+        "concert": false
     },
     {
         "composer": "Igor Stravinsky",
-        "titles": ["<i>The Solider's Tale</i>"],
+        "titles": ["The Solider's Tale"],
         "concert": true
     },
     {
         "composer": "Josef Suk",
         "titles": ["Serenade for Strings"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "Thomas Tallis",
         "titles": ["If ye love me"],
-        "rehearsal": true
+        "concert": false
     },
     {
         "composer": "John Tavener",
@@ -282,12 +280,12 @@
     },
     {
         "composer": "Richard Wagner",
-        "titles": ["<i>Die Meistersinger von N&uuml;rnberg</i> <small>(overture)</small>"],
+        "titles": ["Die Meistersinger von N&uuml;rnberg <small>(overture)</small>"],
         "concert": true
     },
     {
         "composer": "Carl Maria von Weber",
-        "titles": ["<i>Der Freischutz</i> <small>(overture)</small>"],
+        "titles": ["Der Freischutz <small>(overture)</small>"],
         "concert": true
     },
     {
@@ -298,6 +296,6 @@
     {
         "composer": "John Wilbye",
         "titles": ["Weep, weep, mine eyes"],
-        "rehearsal": true
+        "concert": false
     }
 ]

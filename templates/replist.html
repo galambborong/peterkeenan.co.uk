@@ -21,7 +21,7 @@
     <h2><a name="rehearsed">Works I've rehearsed</a></h2>
     <dl>
         {% for entry in repertoire_db | sort(attribute="composer[-1]") %}
-            {% if entry.rehearsal is true %}
+            {% if entry.concert is not true %}
                 <div id="article_loop">
                     <dt><b>{{ entry.composer | safe }}</b></dt>
                     {% for title in entry.titles | sort %}
