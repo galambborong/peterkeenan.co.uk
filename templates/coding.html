@@ -4,19 +4,31 @@
 
 {% block content %}
     <h1>Coding / Dev / Programming</h1>
-        <p>Okay, so it is definitely a bit pretentious/misleading of me to have a whole page dedicated to this as it implies that I'm more experienced and prolific than I am.</p><p>I recently got into programming/scripting (I mean, literally three or so months ago) and quite enjoy it, so I guess this page is here because I see it playing a bigger part in my various activities from here on.</p>
-    <h2>Languages</h2>
-    <p>I've mainly been working on Python, but am also dabbling in C with a view to learning C# and/or C++. Python is very current and seems a good place to start. I wanted to get familiar with C because so many languages (Java, C++, C#) are derived from it. Also, so much stuff is still written in C.
-    <h2>Current projects...</h2>
+        <p>Okay, so it is definitely a bit pretentious/misleading of me to have a whole page dedicated to this as it implies that I'm more experienced and prolific than I am.</p><p>I recently got into programming (I mean, literally three or so months ago) and quite enjoy it, so this page is here because I see it playing a bigger part in my various activities from here on.</p>
+    <h2>Languages / paradigms</h2>
+    <p>I started learning <b>Python</b> in April and am enjoying this a lot. It was a good
+    introduction to object-oriented, imperative programming. I've recently
+    started learning <b>JavaScript</b> and feel the principles I grasped through
+    Python are translating well (so far, at least!).</p>
+    <p>I am also dabbling with <b>Haskell</b>. For whatever reason, I find functional programming appealing and I find the Haskell language elegant and powerful.</p>
+    <h2>Current projects</h2>
     <h3>Editing SCORE files</h3>
     <p>The big aim with learning a bit of programming is to improve my workflow in SCORE, more specifically &ndash; to supercede my Editscor script for editing slurs/ties with a more intelligent and flexible program. With some helpful hints from a friend, I'm reading the binary data successfully. I just have to begin the long job of building a scalable program!</p>
     <h3>Webscraping</h3>
+    <h4>Samling Artist pages</h4>
     <p>As part of my job at Samling, we have to edit a set of artist pages (350 individual pages!) one at a time. There's no database or way for us to do global edits across the 350 pages. Often it takes ages to just go through every page and establish what information they do and don't have. So I wrote a Python script to do this for me, which summarises which pages have what information. It also spots inconsistencies. I then just make the desired edits to the relevant pages without the time-consuming process of checking each page for a specific element.</p>
+    <h4>Haskell project</h4>
+    <p>I have started a project in Haskell which scrapes a website for data
+    using APIs and such. It's early days, but I'll hopefully get it on my
+    GitHub page soon.</p>
     <h3>Scheduling</h3>
     <p>This has taken a bit of a backburner but I'll pick it up when I can... Again, at Samling I spend so much time sorting artists into groups and making schedules. I am working on a way to automate this &ndash; particularly the group sorting, which can often take the best part of a day.</p>
     <h2>Other stuff</h2>
     <h3>This website!</h3>
     <p>I guess this website constitutes as part of my ongoing learning of Python. It is built using Python with the <a target="_blank" rel="noopener noreferrer" href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a> framework and <a target="_blank"rel="noopener noreferrer" href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja</a> template engine. Locally, there are some small JSON databases. I then use <a target="_blank" rel="noopener noreferrer" href="https://pythonhosted.org/Frozen-Flask/">Frozen-Flask</a> to 'freeze' the site into a series of static html sheets, which I just upload to my VPS. This has the advantage of being minimal/static but immediately scalable if/when I need to move to a dynamic site.</p> 
+    <p>Though minimal and simple is what I'm going for, this site is lacking in
+    certain aspects &ndash; mainly responsiveness and capitalising on HTML5. Both of
+    these will be addressed in due course.</p>
     <h3>Git</h3>
     <p>I'm a massive fan of <a target="_blank" rel="noopener noreferrer" href="https://git-scm.com/">Git</a> and have spent time learning more about its lower-level functions (commonly referred to as its "plumbing"). I host my own Git server on this VPS (although its web interface is a bit careless at present, I have not yet set up the post-hooks). I am on <a target="_blank" rel="noopener noreferrer" href="https://github.com/galambborong">GitHub</a> too.</p>
 {% endblock %}
