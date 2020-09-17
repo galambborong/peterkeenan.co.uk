@@ -24,10 +24,10 @@
         "post": "Having a bit of knowledge of digital minimalism helps! Let's mark this up a bit.<br><br><code>peterkeenan.co.uk</code></p><p>This is a new paragraph..."
     },
     {
-        "title": "YET ANOTHER POST",
-        "date": "20200101",
-        "draft": true,
-        "post": "This is another wee post to check the layout of the page."
+        "title": "New publication",
+        "date": "20200917",
+        "draft": false,
+        "post": "I have a new publication out recently. This is a review of Clemens Kemme's recent edition of Mozart's C minor Mass, K427. It is unfortunately behind a paywall/institutional access, but if you're interested to read it let me know and I can email you a PDF."
     },
     {
         "title": "Brief introduction...",
