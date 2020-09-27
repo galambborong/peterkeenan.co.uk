@@ -142,3 +142,6 @@ cython_debug/
 
 # My notes
 .notes
+
+# VSC stuff
+*.code-workspace
